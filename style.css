@@ -275,15 +275,54 @@ body {
 }
 
 .donate-btn:hover {
-    background: #e03e3f;
-    color: #ffbf00;
-    cursor: pointer;
-  }
+  background: #e03e3f;
+  color: #ffbf00;
+  cursor: pointer;
+}
 
-  .newsletter-container{
-    background-color: #e03e3f;
-  }
+.newsletter-container {
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+  margin-bottom: 60px;
+}
 
-  .input-email{
-    
-  }
+.input-email {
+  width: 600px;
+  padding: 17px 34px;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+
+.subscribe-btn {
+  /* display: flex; */
+  padding: 17px 34px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 48px;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-with-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.lastbbt:hover {
+  background: #e03e3f;
+  color: #ffbf00;
+  cursor: pointer;
+}
+
+.email-last {
+  text-align: center;
+}
