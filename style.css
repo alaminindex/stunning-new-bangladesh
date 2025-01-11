@@ -1,0 +1,57 @@
+/*main banner section here*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+}
+
+.main-banner {
+  width: 1280px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: #c6e4d6;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bd-text {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.idea-text {
+  width: 622px;
+  color: #0e0e0e;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.btn-text {
+  display: flex;
+  padding: 17px 34px;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-text:hover{
+    background: #E03E3F;
+    color: #ffbf00;
+}
